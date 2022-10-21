@@ -10,7 +10,7 @@ int main() {
 	}
 	while(n < 0 && printf("Nhap lai\n"));
 	
-	while(n != 0){
+	while(n != 0){																					
 	        i = i * 10 + n%10;
 	        n = n / 10;
 	    }
