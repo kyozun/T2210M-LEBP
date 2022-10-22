@@ -2,14 +2,12 @@
 #include <math.h>
 
 int main() {
-	int n;
-	int so_can_tim;
+	int n,so_can_tim;
 	printf("Nhap so nguyen n: ");
 	scanf("%d",&n);
 	
 	for (int i; i<n; i++) {
 		if((i%2==0)&&(i%3==0)) {
-			//So can tim la i
 			so_can_tim = i;	
 		}
 	}
